@@ -1,0 +1,58 @@
+﻿  PROIECTpoo.cpp
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(23,1): error C2664: 'char *strcpy(char *,const char *)': cannot convert argument 1 from 'magazin **[100]' to 'char *'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(23,16): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133,1): message : see declaration of 'strcpy'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(31,1): error C3867: 'magazin::getNumeProd': non-standard syntax; use '&' to create a pointer to member
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(31,1): error C2664: 'char *strcpy(char *,const char *)': cannot convert argument 1 from 'magazin **[100]' to 'char *'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(31,20): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133,1): message : see declaration of 'strcpy'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(32,1): error C3867: 'magazin::getCodProd': non-standard syntax; use '&' to create a pointer to member
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(32,1): error C2440: '=': cannot convert from 'int (__thiscall magazin::* )(void)' to 'int'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(32,25): message : There is no context in which this conversion is possible
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(33,1): error C3867: 'magazin::getPretProd': non-standard syntax; use '&' to create a pointer to member
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(33,1): error C2440: '=': cannot convert from 'float (__thiscall magazin::* )(void)' to 'float'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(33,26): message : There is no context in which this conversion is possible
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(39,1): error C2440: 'return': cannot convert from 'magazin **[100]' to 'char *'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(39,16): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(65,1): error C2059: syntax error: ')'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(75,1): error C2679: binary '>>': no operator found which takes a right-hand operand of type 'magazin **[100]' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(294,39): message : could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(290,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(286,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(282,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(278,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(274,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(270,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(266,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(262,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(258,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(250,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(246,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(214,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(210,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(188,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(183,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(178,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(867,31): message : or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(861,31): message : or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(832,31): message : or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(827,31): message : or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(75,1): message : while trying to match the argument list '(std::ifstream, magazin **[100])'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(104,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(106,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(111,1): error C3867: 'client::getNumeClient': non-standard syntax; use '&' to create a pointer to member
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(112,1): error C3867: 'client::getNrTel': non-standard syntax; use '&' to create a pointer to member
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(112,1): error C2440: '=': cannot convert from 'int (__thiscall client::* )(void)' to 'int'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(112,24): message : There is no context in which this conversion is possible
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(113,1): error C3867: 'client::getAdresa': non-standard syntax; use '&' to create a pointer to member
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(141,28): error C2065: 'mag': undeclared identifier
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(147,23): error C2065: 'mag': undeclared identifier
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(159,17): error C2259: 'magazin': cannot instantiate abstract class
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(11): message : see declaration of 'magazin'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(159,17): message : due to following members:
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(159,17): message : 'void IAfisare::afis(void)': is abstract
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(8): message : see declaration of 'IAfisare::afis'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(162,5): error C2360: initialization of 'mag' is skipped by 'case' label
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(159): message : see declaration of 'mag'
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(166,5): error C2361: initialization of 'mag' is skipped by 'default' label
+C:\Users\User\source\repos\PROIECTpoo\PROIECTpoo\PROIECTpoo.cpp(159): message : see declaration of 'mag'
